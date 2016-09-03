@@ -1,0 +1,20 @@
+{
+    "name": "vvasiloud/passwordadapter",
+    "description": "",
+    "authors": [
+        {
+            "email": "vvasiloud@gmail.gr",
+            "name": "Vasilis Vasiloudis"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vvasiloud\\PasswordAdapter\\": ""
+        }
+    }
+}

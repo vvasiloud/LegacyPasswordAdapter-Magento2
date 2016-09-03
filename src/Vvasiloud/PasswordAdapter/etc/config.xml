@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Vvasiloud
+ * @package    Vvasiloud_PasswordAdapter
+ * @author     Vasilis Vasiloudis <vvasiloud@gmail.com>
+ * @website    http://vvasiloud.github.io
+ * @license    http://www.gnu.org/licenses/ GNU General Public License
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+	<default>
+		<passwordadapter>
+			<general>
+				<enabled>0</enabled>
+			</general>
+		</passwordadapter>
+	</default>
+</config>
