@@ -9,5 +9,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<preference for="Magento\Customer\Model\AccountManagement" type="Vvasiloud\PasswordAdapter\Model\AccountManagement" />
+	<type name="Magento\Customer\Model\AccountManagement">
+		<plugin disabled="false" name="Vvasiloud_PasswordAdapter_Plugin_Magento_Customer_Model_AccountManagement" sortOrder="10" type="Vvasiloud\PasswordAdapter\Plugin\Magento\Customer\Model\AccountManagement"/>
+	</type>
 </config>

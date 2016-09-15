@@ -12,7 +12,7 @@
     <acl>
         <resources>
             <resource id="Magento_Adminhtml::admin">
-                <resource id="Vvasiloud_PasswordAdapter::{{gridname}}" title="{{gridname}}" sortOrder="100"/>
+                <resource id="Vvasiloud_PasswordAdapter::config" title="config" sortOrder="100"/>
  <!--AddMenuAcl-->
             </resource>
         </resources>
